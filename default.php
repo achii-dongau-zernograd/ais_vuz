@@ -14,7 +14,7 @@
       echo "3+2=", 3+2;
       echo "<br><br>";
       echo "Привет!";
-      $myVar=555.654555;
+      $myVar=555.6784555;
       echo "<br><br>";
       print($myVar);
       unset($myVar);//Deleting of variable
