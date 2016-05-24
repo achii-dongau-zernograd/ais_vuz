@@ -30,3 +30,8 @@
 
 8. ук
 9. 
+
+
+Источники:
+1. http://pyatilistnik.org/kak-ustanovit-moodle-na-centos-7-sozdayte-svoyu-ploshhadku-obucheniya/
+2. Установка Moodle: https://docs.moodle.org/31/en/Installing_Moodle
