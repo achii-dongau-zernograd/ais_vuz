@@ -101,10 +101,13 @@ $cfg['Servers'][$i]['auth_type'] = ‘cookies‘;
 заменить на
 $cfg['Servers'][$i]['auth_type'] = ‘http‘;
 
+Перезагрузить веб-сервер:
+service httpd restart
 
 
 
 Источники:
 1. http://pyatilistnik.org/kak-ustanovit-moodle-na-centos-7-sozdayte-svoyu-ploshhadku-obucheniya/
 2. http://serveradmin.ru/centos-7-nastroyka-servera/
-3. Установка Moodle: https://docs.moodle.org/31/en/Installing_Moodle
+3. http://centos.name/?page/tipsandtricks/phpmyadmin
+4. Установка Moodle: https://docs.moodle.org/31/en/Installing_Moodle
