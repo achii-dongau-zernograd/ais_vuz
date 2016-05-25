@@ -174,3 +174,4 @@ AcceptPathInfo on
 5. http://www.e-du.ru/2015/08/install-moodle-linux-centos.html?m=1
 6. http://on.econ.msu.ru/help.php?file=install.html
 7. https://docs.moodle.org/archive/ru/Установка_Moodle
+8. http://sonikelf.ru/ustanovka-opcache-na-primere-centos/
