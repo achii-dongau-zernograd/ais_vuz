@@ -100,8 +100,44 @@ service httpd restart
 
 Запускаем по адресу http://10.52.9.200/phpmyadmin 
 
+12. Устанавливаем и настраиваем Moodle
 
 
+Устанавливаем права на папку для Apache:
+chown -R apache:apache /var/www/html/moodle/
+
+Теперь создадим папку для хранения данных Moodle. Она должна быть не доступна из веб и располагаться вне директории /var/www/html/:
+mkdir /var/moodle
+mkdir /var/moodle/data
+
+Также указываем владельца и права на папку:
+chown -R apache:apache /var/moodle
+chmod -R 755 /var/moodle
+
+Далее создадим собственный конфигурационный файл (config.php), основываясь на файле config-dist.php.
+
+Для этого переходим в каталог Moodle:
+cd /var/www/html/moodle/
+
+И создаем копию файла config-dist.php:
+cp config-dist.php config.php
+
+Открываем файл на редактирование и корректируем следующие строки.
+Информация о базе данных (указываем свои данные):
+$CFG->dbtype    = 'mariadb';     
+$CFG->dbname    = 'moodledb';    
+$CFG->dbuser    = 'moodleusr';  
+$CFG->dbpass    = 'moodlepass'; 
+
+Также настраиваем параметр URL адреса для доступа к Moodle (указываем либо домен, либо IP адрес):
+$CFG->wwwroot   = 'http://10.52.9.200/moodle';
+
+Указываем путь к каталогу с данными:
+$CFG->dataroot  = '/var/moodle/data';
+
+Далее продолжим инсталляцию, уже перейдя непосредственно на только что установленный сайт Moodle через браузер.
+
+Вводим в браузере указанный ранее адрес (домен или IP), например, http://192.168.0.10/moodle
 
 Источники:
 1. http://pyatilistnik.org/kak-ustanovit-moodle-na-centos-7-sozdayte-svoyu-ploshhadku-obucheniya/
