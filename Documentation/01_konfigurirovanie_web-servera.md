@@ -139,6 +139,13 @@ $CFG->dataroot  = '/var/moodle/data';
 
 Вводим в браузере указанный ранее адрес (домен или IP), например, http://192.168.0.10/moodle
 
+
+
+php.ini лежит в /etc
+
+
+
+
 Источники:
 1. http://pyatilistnik.org/kak-ustanovit-moodle-na-centos-7-sozdayte-svoyu-ploshhadku-obucheniya/
 2. http://serveradmin.ru/centos-7-nastroyka-servera/
@@ -146,3 +153,4 @@ $CFG->dataroot  = '/var/moodle/data';
 4. Установка Moodle: https://docs.moodle.org/31/en/Installing_Moodle
 5. http://www.e-du.ru/2015/08/install-moodle-linux-centos.html?m=1
 6. http://on.econ.msu.ru/help.php?file=install.html
+7. https://docs.moodle.org/archive/ru/Установка_Moodle
