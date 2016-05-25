@@ -169,7 +169,7 @@ AcceptPathInfo on
 
 Для корректной работы Moodle также необходимо настроить периодический запуск специального файла - cron.php. Способы могут быть различные, например, такой (устанавливает запуск каждые 10 минут):
 
-sudo crontab -eu apache
+crontab -eu apache
 */10 * * * * /usr/bin/php /var/www/html/moodle/cli/cron.php > /dev/null
 
 
