@@ -144,3 +144,5 @@ $CFG->dataroot  = '/var/moodle/data';
 2. http://serveradmin.ru/centos-7-nastroyka-servera/
 3. http://centos.name/?page/tipsandtricks/phpmyadmin
 4. Установка Moodle: https://docs.moodle.org/31/en/Installing_Moodle
+5. http://www.e-du.ru/2015/08/install-moodle-linux-centos.html?m=1
+6. http://on.econ.msu.ru/help.php?file=install.html
