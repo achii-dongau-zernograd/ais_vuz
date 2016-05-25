@@ -95,14 +95,11 @@ yum install phpmyadmin
 ...
 
 
-В файле /usr/share/phpmyadmin/config.inc.php
-строку
-$cfg['Servers'][$i]['auth_type'] = ‘cookies‘;
-заменить на
-$cfg['Servers'][$i]['auth_type'] = ‘http‘;
-
 Перезагрузить веб-сервер:
 service httpd restart
+
+Запускаем по адресу http://10.52.9.200/phpmyadmin 
+
 
 
 
