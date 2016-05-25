@@ -33,9 +33,12 @@ yum -y install epel-release
 rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
 yum -y install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
 
-9. 
-
+9. Устанавливаем дополнительные утилиты
+yum -y install iftop
+yum -y install htop
+yum -y install atop
 
 Источники:
 1. http://pyatilistnik.org/kak-ustanovit-moodle-na-centos-7-sozdayte-svoyu-ploshhadku-obucheniya/
-2. Установка Moodle: https://docs.moodle.org/31/en/Installing_Moodle
+2. http://serveradmin.ru/centos-7-nastroyka-servera/
+3. Установка Moodle: https://docs.moodle.org/31/en/Installing_Moodle
