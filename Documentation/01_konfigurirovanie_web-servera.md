@@ -47,8 +47,61 @@ nmtui
 8.8.8.8
 8.8.4.4
 
-11. Установка PhpMyAdmin
+11. Установка и настройка PhpMyAdmin
 yum install phpmyadmin
+
+Редактируем: /etc/httpd/conf.d/phpMyAdmin.conf
+
+...
+
+<Directory /usr/share/phpMyAdmin/>
+   AddDefaultCharset UTF-8
+ 
+   <IfModule mod_authz_core.c>
+     # Apache 2.4
+     <RequireAny>
+       #Require ip 127.0.0.1
+       #Require ip ::1
+       Require all granted
+     </RequireAny>
+   </IfModule>
+   <IfModule !mod_authz_core.c>
+     # Apache 2.2
+     Order Deny,Allow
+     Deny from All
+     Allow from 127.0.0.1
+     Allow from ::1
+   </IfModule>
+</Directory>
+ 
+<Directory /usr/share/phpMyAdmin/setup/>
+   <IfModule mod_authz_core.c>
+     # Apache 2.4
+     <RequireAny>
+       #Require ip 127.0.0.1
+       #Require ip ::1
+       Require all granted
+     </RequireAny>
+   </IfModule>
+   <IfModule !mod_authz_core.c>
+     # Apache 2.2
+     Order Deny,Allow
+     Deny from All
+     Allow from 127.0.0.1
+     Allow from ::1
+   </IfModule>
+</Directory>
+
+...
+
+
+В файле /usr/share/phpmyadmin/config.inc.php
+строку
+$cfg['Servers'][$i]['auth_type'] = ‘cookies‘;
+заменить на
+$cfg['Servers'][$i]['auth_type'] = ‘http‘;
+
+
 
 
 Источники:
