@@ -34,6 +34,7 @@ rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
 yum -y install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
 
 9. Устанавливаем дополнительные утилиты
+yum -y install net-tools.x86_64
 yum -y install iftop
 yum -y install htop
 yum -y install atop
