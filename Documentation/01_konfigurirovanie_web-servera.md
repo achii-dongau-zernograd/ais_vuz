@@ -28,6 +28,12 @@
 Закрываем браузер командой "q" ? или F10???
 Если данная страница не открывается, нужно настроить firewall (службу <strong>iptables</strong>), а именно включить прослушивание порта 80.
 
+
+Устанавливаем php и модули
+yum install php-pear
+yum install php-devel gcc
+yum install php-pecl-zendopcache
+
 8. Устанавливаем дополнительные репозитории<br>
 yum -y install epel-release
 rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
