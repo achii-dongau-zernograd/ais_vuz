@@ -28,7 +28,11 @@
 Закрываем браузер командой "q" ? или F10???
 Если данная страница не открывается, нужно настроить firewall (службу <strong>iptables</strong>), а именно включить прослушивание порта 80.
 
-8. ук
+8. Устанавливаем дополнительные репозитории<br>
+yum -y install epel-release
+rpm --import http://apt.sw.be/RPM-GPG-KEY.dag.txt
+yum -y install http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
+
 9. 
 
 
