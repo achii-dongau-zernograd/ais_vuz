@@ -47,6 +47,10 @@ nmtui
 8.8.8.8
 8.8.4.4
 
+11. Установка PhpMyAdmin
+yum install phpmyadmin
+
+
 Источники:
 1. http://pyatilistnik.org/kak-ustanovit-moodle-na-centos-7-sozdayte-svoyu-ploshhadku-obucheniya/
 2. http://serveradmin.ru/centos-7-nastroyka-servera/
