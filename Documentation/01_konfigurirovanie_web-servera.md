@@ -39,6 +39,14 @@ yum -y install iftop
 yum -y install htop
 yum -y install atop
 
+10. Настраиваем сеть
+nmtui
+10.52.9.200/8
+10.52.9.100
+10.52.9.100
+8.8.8.8
+8.8.4.4
+
 Источники:
 1. http://pyatilistnik.org/kak-ustanovit-moodle-na-centos-7-sozdayte-svoyu-ploshhadku-obucheniya/
 2. http://serveradmin.ru/centos-7-nastroyka-servera/
