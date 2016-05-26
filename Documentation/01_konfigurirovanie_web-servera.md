@@ -172,10 +172,11 @@ chcon -R unconfined_u:object_r:httpd_sys_rw_content_t:s0 /var/www/html/moodle/th
 То же для папки типов вопросов (чтобы устанавливать дополнительные типы):
 chcon -R unconfined_u:object_r:httpd_sys_rw_content_t:s0 /var/www/html/moodle/question/type
 
-Для корректной работы Moodle также необходимо настроить периодический запуск специального файла - cron.php. Способы могут быть различные, например, такой (устанавливает запуск каждые 10 минут):
+Для корректной работы Moodle необходимо настроить периодический запуск файла cron.php
+(устанавливаем запуск каждые 2 минуты):
 
 crontab -eu apache
-*/10 * * * * /usr/bin/php /var/www/html/moodle/cli/cron.php > /dev/null
+*/2 * * * * /usr/bin/php /var/www/html/moodle/cli/cron.php > /dev/null
 
 
 
@@ -188,3 +189,4 @@ crontab -eu apache
 6. http://on.econ.msu.ru/help.php?file=install.html
 7. https://docs.moodle.org/archive/ru/Установка_Moodle
 8. http://sonikelf.ru/ustanovka-opcache-na-primere-centos/
+9. https://www.opennet.ru/cgi-bin/opennet/man.cgi?topic=crontab&category=5
