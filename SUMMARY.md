@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Часть 2. Аутентификация и авторизация
+   * [Часть 2. Аутентификация и авторизация](chast_2_autentifikatsiya_i_avtorizatsiya.md)
 * [Часть 1. Конфигурирование веб-сервера](Documentation/01_konfigurirovanie_web-servera.md)
    * [Администрирование сервера](Documentation/administrirovanie_servera.md)
    * [PHP](Documentation/php.md)
