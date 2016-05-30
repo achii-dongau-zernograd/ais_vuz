@@ -8,5 +8,5 @@
        * [Git](Documentation/git.md)
        * [Структура каталогов](Documentation/struktura_katalogov.md)
    * [Часть 2. Аутентификация и авторизация](chast_2_autentifikatsiya_i_avtorizatsiya.md)
-       * Sentry 2
+       * [Sentry 2](sentry_2.md)
 
