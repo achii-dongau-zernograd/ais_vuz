@@ -5,4 +5,5 @@
    * [Администрирование сервера](Documentation/administrirovanie_servera.md)
    * [PHP](Documentation/php.md)
    * [Moodle](Documentation/moodle.md)
+   * Git
 
