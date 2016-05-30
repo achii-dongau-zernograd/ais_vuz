@@ -6,5 +6,5 @@
    * [PHP](Documentation/php.md)
    * [Moodle](Documentation/moodle.md)
    * [Git](Documentation/git.md)
-   * Структура каталогов
+   * [Структура каталогов](Documentation/struktura_katalogov.md)
 
