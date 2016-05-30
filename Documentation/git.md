@@ -27,5 +27,13 @@ https://getcomposer.org/
 Установка OAuth2
 composer require league/oauth2-server
 
+To generate the private key run this command on the terminal:
+openssl genrsa -out private.key 1024
+
+then extract the public key from the private key:
+openssl rsa -in private.key -pubout -out public.key
+
+
+
 https://oauth2.thephpleague.com/
 
