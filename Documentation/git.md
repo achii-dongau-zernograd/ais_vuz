@@ -5,12 +5,6 @@ git clone git://git.moodle.org/moodle.git
 
 
 
-Установка OAuth2
-
-
-https://oauth2.thephpleague.com/
-
-
 Composer
 Download and install Composer 
 curl -sS https://getcomposer.org/installer | php
@@ -30,6 +24,8 @@ https://habrahabr.ru/post/145946/
 https://getcomposer.org/
 
 
+Установка OAuth2
+composer require league/oauth2-server
 
-
+https://oauth2.thephpleague.com/
 
