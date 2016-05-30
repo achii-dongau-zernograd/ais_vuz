@@ -3,7 +3,7 @@
 2. Установка Moodle
 3. cron.php
 crontab -eu apache
-*/2 * * * * 
+*/2 * * * * /usr/bin/php /var/www/html/moodle/admin/cli/cron.php > /dev/null
 
 
 
