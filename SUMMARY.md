@@ -7,5 +7,4 @@
    * [Moodle](Documentation/moodle.md)
    * [Git](Documentation/git.md)
    * [Структура каталогов](Documentation/struktura_katalogov.md)
-* [Часть 2. Аутентификация и авторизация](chast_2_autentifikatsiya_i_avtorizatsiya.md)
 
