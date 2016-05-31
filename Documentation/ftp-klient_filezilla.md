@@ -1,4 +1,5 @@
-# FTP-клиент Filezilla
+# FTP-клиент lftp
 
-yum install filezilla
+yum install lftp
+
 
