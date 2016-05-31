@@ -10,7 +10,7 @@
        * [DNS-сервер BIND](Documentation/dns-server_bind.md)
        * [FTP-сервер vsftpd](Documentation/ftp-server_vsftpd.md)
        * [FTP-клиент lftp](Documentation/ftp-klient_lftp.md)
-       * Сканер портов nmap
+       * [Сканер портов nmap](Documentation/skaner_portov_nmap.md)
    * [Часть 2. Аутентификация и авторизация](chast_2_autentifikatsiya_i_avtorizatsiya.md)
        * [Sentry 2](sentry_2.md)
    * [Часть 3. Фреймворки](chast_3_freimvorki.md)
