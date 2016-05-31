@@ -78,6 +78,10 @@ pasv_max_port=55000
 <hr>
 
 
+Создаем необходимых пользователей, файлы и каталоги для установленной конфигурации. Добавим тестового пользователя ftp в систему:
+
+useradd -s /sbin/nologin ftp-user
+passwd ftp-user
 
 
 http://serveradmin.ru/ustanovka-i-nastroyka-ftp-servera-na-centos-7/
