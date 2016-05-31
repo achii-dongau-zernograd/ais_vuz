@@ -118,6 +118,18 @@ touch /var/log/vsftpd.log && chmod 600 /var/log/vsftpd.log
 systemctl enable vsftpd
 systemctl start vsftpd
 
+
+Добавляем vsftpd в фаерволл
+Разрешаем firewalld FTP, порт 21:
+
+firewall-cmd --permanent --add-port=21/tcp
+
+And reload the firewall:
+
+firewall-cmd --reload
+
+
+
 Проверяем, запустился ли он:
 netstat -tulnp | grep vsftpd
 
