@@ -4,11 +4,11 @@
 yum install nmap
 
 
-To find out nmap version, run:
+Версия программы nmap:
 nmap --version
 
 
-To scan an IP address or a host name (FQDN), run:
+Сканирование указанного IP адреса или хоста (FQDN):
 nmap 1.2.3.4
 nmap localhost
 nmap 192.168.1.1
@@ -19,10 +19,10 @@ nmap -v -A scanme.nmap.org
 nmap -v -A 192.168.1.1
 
 
-To scan a range of IP addresses
+Сканирование диапазона IP адресов
 nmap 192.168.1.1-50
 
-To scan an entire subnet
+Сканирование подсети
 nmap 192.168.1.0/24
 
 Ping only scan
@@ -36,13 +36,13 @@ nmap -sU 192.168.1.1
 IP protocol scan
 nmap -sO 192.168.1.1
 
-Scan port 80, 25, 443, and 110
+Сканирование портов 80, 25, 443, and 110
 nmap -p 80,25,443,110 192.168.1.1
 
-Scan port ranges 1024-2048
+Сканирование диапазона портов 1024-2048
 nmap -p 1024-2048 192.168.1.1
 
-Operating system detection
+Определение операционной системы
 nmap -O --osscan-guess 192.168.1.1
 
 
