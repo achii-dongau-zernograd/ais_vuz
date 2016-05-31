@@ -21,7 +21,7 @@ tcp_wrappers=YES
 anonymous_enable=NO
 
 Каталог, куда будут попадать анонимные пользователи, если они разрешены
-anon_root=/ftp
+anon_root=/var/asuvuz_data/ftp/share
 
 Разрешает вход для локальных пользователей
 local_enable=YES
