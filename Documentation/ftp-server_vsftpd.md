@@ -94,8 +94,34 @@ touch /etc/vsftpd/users/ftp-user
 echo 'local_root=/var/asuvuz_data/ftp/share' >> /etc/vsftpd/users/ftp-user
 
 Не забываем создать этот каталог и назначить ему владельца:
-mkdir /ftp && chmod 0777 /ftp
-mkdir /ftp/ftp-user && chown ftp-user. /ftp/ftp-user/
+mkdir /var/asuvuz_data/ftp/share && chmod 0777 /var/asuvuz_data/ftp/share
+chown ftp-user. /var/asuvuz_data/ftp/share
+
+
+
+Создаем файл c пользователями, которым можно выходить за пределы домашнего каталога:
+touch /etc/vsftpd/chroot_list
+
+Добавляем туда рута:
+echo 'root' >> /etc/vsftpd/chroot_list
+
+
+Создаем файл со списком пользователей ftp, которым разрешен доступ к серверу:
+touch /etc/vsftpd/user_list
+echo 'root' >> /etc/vsftpd/user_list && echo 'ftp-user' >> /etc/vsftpd/user_list
+Этим списком мы можем ограничить доступ к ftp серверу системных пользователей, которым туда ходить не нужно.
+
+Создадим файл для логов:
+touch /var/log/vsftpd.log && chmod 600 /var/log/vsftpd.log
+
+Все готово для работы. Добавляем vsftpd в автозагрузку и запускаем:
+systemctl enable vsftpd
+systemctl start vsftpd
+
+Проверяем, запустился ли он:
+netstat -tulnp | grep vsftpd
+
+
 
 
 http://serveradmin.ru/ustanovka-i-nastroyka-ftp-servera-na-centos-7/
