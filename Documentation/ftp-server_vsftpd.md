@@ -75,3 +75,9 @@ local_umask=022
 pasv_min_port=49000
 pasv_max_port=55000
 
+<hr>
+
+
+
+
+http://serveradmin.ru/ustanovka-i-nastroyka-ftp-servera-na-centos-7/
