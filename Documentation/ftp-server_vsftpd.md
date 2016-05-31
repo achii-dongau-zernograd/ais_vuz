@@ -84,4 +84,18 @@ useradd -s /sbin/nologin ftp-user
 passwd ftp-user
 
 
+Создаем каталог для персональных настроек пользователей:
+mkdir /etc/vsftpd/users
+
+
+В каталоге можно будет создать отдельно файлы с именами пользователей и передать им персональные параметры. Для примера создадим файл с именем пользователя ftp-user и укажем его домашний каталог:
+
+touch /etc/vsftpd/users/ftp-user
+echo 'local_root=/var/asuvuz_data/ftp/share' >> /etc/vsftpd/users/ftp-user
+
+Не забываем создать этот каталог и назначить ему владельца:
+mkdir /ftp && chmod 0777 /ftp
+mkdir /ftp/ftp-user && chown ftp-user. /ftp/ftp-user/
+
+
 http://serveradmin.ru/ustanovka-i-nastroyka-ftp-servera-na-centos-7/
