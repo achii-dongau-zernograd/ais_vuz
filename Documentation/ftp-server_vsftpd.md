@@ -124,8 +124,7 @@ systemctl start vsftpd
 
 firewall-cmd --permanent --add-port=21/tcp
 
-And reload the firewall:
-
+Перезапускем фаерволл:
 firewall-cmd --reload
 
 
