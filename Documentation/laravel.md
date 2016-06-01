@@ -15,7 +15,7 @@ https://gist.github.com/barryvdh/5227822
 Загрузим установщик Laravel с помощью Composer
 composer global require "laravel/installer=~1.1"
 
-Поместим каталог ~/.composer/vendor/bin в переменную PATH, чтобы исполняемый файл laravel мог быть найден системой
+Поместим каталог ~/.composer/vendor/bin в переменную PATH, чтобы исполняемый файл laravel мог быть найден системой ( http://sergeyivanov.ru/it/linux/dobavlenie-peremennyh-okruzheniya-path-centos.html )
 
 
 После установки простая команда laravel new произведёт установку свежего Laravel в указанный каталог. Например, laravel new blog создаст каталог с именем blog, содержащий свежий Laravel со всеми установленными зависимостями. Этот способ установки намного быстрее, чем установка с помощью Composer:
