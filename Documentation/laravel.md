@@ -7,3 +7,8 @@ https://laravel.ru
 https://gist.github.com/barryvdh/5227822
 
 ( http://arhamzul.com/laravel-5-netbeans/ )
+
+
+
+Ресурсы:
+https://ru.wikipedia.org/wiki/Laravel
