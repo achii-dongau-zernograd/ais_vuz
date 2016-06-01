@@ -15,5 +15,5 @@
        * [Sentry 2](Documentation/sentry_2.md)
    * [Часть 3. Фреймворки](Documentation/chast_3_freimvorki.md)
        * [Laravel](Documentation/laravel.md)
-* [Концепция проекта АСУ ВУЗ](kontseptsiya_proekta_asu_vuz.md)
+* [Концепция проекта АСУ ВУЗ](Documentation/kontseptsiya_proekta_asu_vuz.md)
 
