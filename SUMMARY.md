@@ -13,7 +13,7 @@
        * [Сканер портов nmap](Documentation/skaner_portov_nmap.md)
    * [Часть 2. Аутентификация и авторизация](Documentation/chast_2_autentifikatsiya_i_avtorizatsiya.md)
        * [Sentry 2](Documentation/sentry_2.md)
-   * [Часть 3. Фреймворки](chast_3_freimvorki.md)
+   * [Часть 3. Фреймворки](Documentation/chast_3_freimvorki.md)
        * [Laravel](laravel.md)
 * [Концепция проекта АСУ ВУЗ](kontseptsiya_proekta_asu_vuz.md)
 
