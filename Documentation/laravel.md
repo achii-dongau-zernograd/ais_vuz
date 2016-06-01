@@ -12,3 +12,5 @@ https://gist.github.com/barryvdh/5227822
 
 Ресурсы:
 https://ru.wikipedia.org/wiki/Laravel
+http://angrydeer.ru/laravel 
+http://angrydeer.ru/laravel/laravel-5-2-sajt-s-nulya-i-do-zapuska-ch-1-vstuplenie#more-9
