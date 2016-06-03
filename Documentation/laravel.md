@@ -23,6 +23,27 @@ composer global require "laravel/installer=~1.1"
 laravel new blog
 
 
+
+
+
+
+Настройка
+
+Для соединения с базой данных (далее БД) у Laravel есть конфигурационный файл database.php, находится он в папке app/config/.
+Сначала создадим БД и пользователя в MySQL
+
+mysql -u root -p 
+#### Введите свой пароль
+> CREATE DATABASE `aisvuz` CHARACTER SET utf8 COLLATE utf8_general_ci;
+> CREATE USER 'aisvuz'@'localhost' IDENTIFIED BY 'my_password';
+> GRANT ALL PRIVILEGES ON habr.* TO 'habr'@'localhost';
+> exit
+
+
+
+
+
+
 Ресурсы:
 https://habrahabr.ru/post/197454/ Установка, настройка, создание и деплой приложения
 https://ru.wikipedia.org/wiki/Laravel
