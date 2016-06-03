@@ -55,3 +55,6 @@ https://laravel.ru Laravel по-русски
 
 https://gist.github.com/barryvdh/5227822 Хелпер-файл Laravel для Netbeans
 http://arhamzul.com/laravel-5-netbeans/ Установка хелпер-файла Laravel для Netbeans
+
+
+http://blog.phpdreamer.ru/простой-блог-на-Laravel-5.html Простой блог на фреймворке Laravel 5
