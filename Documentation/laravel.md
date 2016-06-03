@@ -52,7 +52,8 @@ mysql -u root -p
 
 
 
-Ресурсы:
+#Ресурсы:
+https://www.youtube.com/watch?v=QsBqsbMPRNA Установка Laravel 5.2 на CentOS 7
 https://habrahabr.ru/post/197454/ Установка, настройка, создание и деплой приложения
 https://ru.wikipedia.org/wiki/Laravel
 http://angrydeer.ru/laravel 
