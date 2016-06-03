@@ -24,6 +24,7 @@ laravel new blog
 
 
 Ресурсы:
+https://habrahabr.ru/post/197454/ Установка, настройка, создание и деплой приложения
 https://ru.wikipedia.org/wiki/Laravel
 http://angrydeer.ru/laravel 
 http://angrydeer.ru/laravel/laravel-5-2-sajt-s-nulya-i-do-zapuska-ch-1-vstuplenie#more-9
