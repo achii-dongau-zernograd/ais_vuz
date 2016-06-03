@@ -44,6 +44,14 @@ mysql -u root -p
 
 
 
+
+
+##Запуск проекта
+Перейти в папку с проектом и ввести
+###php artisan serve
+
+
+
 Ресурсы:
 https://habrahabr.ru/post/197454/ Установка, настройка, создание и деплой приложения
 https://ru.wikipedia.org/wiki/Laravel
