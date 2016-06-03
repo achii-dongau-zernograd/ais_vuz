@@ -36,7 +36,7 @@ mysql -u root -p
 #### Введите свой пароль
 > CREATE DATABASE `aisvuz` CHARACTER SET utf8 COLLATE utf8_general_ci;
 > CREATE USER 'aisvuz'@'localhost' IDENTIFIED BY 'my_password';
-> GRANT ALL PRIVILEGES ON habr.* TO 'habr'@'localhost';
+> GRANT ALL PRIVILEGES ON aisvuz.* TO 'aisvuz'@'localhost';
 > exit
 
 
