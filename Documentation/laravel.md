@@ -2,13 +2,7 @@
 
 
 
-Хелпер-файл для Laravel
-https://gist.github.com/barryvdh/5227822
-
-( http://arhamzul.com/laravel-5-netbeans/ )
-
-
-Установка Laravel
+##Установка Laravel
 
 С помощью установщика Laravel
 Загрузим установщик Laravel с помощью Composer
@@ -26,7 +20,7 @@ laravel new blog
 
 
 
-Настройка
+##Настройка
 
 Для соединения с базой данных (далее БД) у Laravel есть конфигурационный файл database.php, находится он в папке app/config/.
 Сначала создадим БД и пользователя в MySQL
@@ -58,3 +52,6 @@ https://ru.wikipedia.org/wiki/Laravel
 http://angrydeer.ru/laravel 
 http://angrydeer.ru/laravel/laravel-5-2-sajt-s-nulya-i-do-zapuska-ch-1-vstuplenie#more-9
 https://laravel.ru Laravel по-русски
+
+https://gist.github.com/barryvdh/5227822 Хелпер-файл Laravel для Netbeans
+http://arhamzul.com/laravel-5-netbeans/ Установка хелпер-файла Laravel для Netbeans
