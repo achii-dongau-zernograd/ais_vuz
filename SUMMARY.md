@@ -13,6 +13,7 @@
        * [Сканер портов nmap](Documentation/skaner_portov_nmap.md)
    * [Часть 2. Аутентификация и авторизация](Documentation/chast_2_autentifikatsiya_i_avtorizatsiya.md)
        * [Sentry 2](Documentation/sentry_2.md)
+       * Sentinel
    * [Часть 3. Фреймворки](Documentation/chast_3_freimvorki.md)
        * [Laravel](Documentation/laravel.md)
    * [Рабочее место разработчика (Windows)](Documentation/rabochee_mesto_razrabotchika_windows.md)
