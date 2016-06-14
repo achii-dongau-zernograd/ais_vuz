@@ -15,7 +15,6 @@
        * [Sentry 2](Documentation/sentry_2.md)
        * [Sentinel](Documentation/Documentation/sentinel.md)
    * [Часть 3. Фреймворки](Documentation/chast_3_freimvorki.md)
-       * [Laravel](Documentation/laravel.md)
    * [Рабочее место разработчика (Windows)](Documentation/rabochee_mesto_razrabotchika_windows.md)
 * [Концепция проекта АСУ ВУЗ](Documentation/kontseptsiya_proekta_asu_vuz.md)
 
