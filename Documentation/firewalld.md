@@ -1,6 +1,7 @@
 # Firewalld
 
-firewalld это надстройка над iptables (он как и iptables использует для работы iptables tool и управляет тем же сетевым фильтром ядра).
+<p>firewalld это надстройка над iptables (он как и iptables использует для работы iptables tool и управляет тем же сетевым фильтром ядра).</p>
+<p>firewalld хранит свои настройки в XML файлах, размещенных в папках /usr/lib/firewalld/ и /etc/firewalld/</p>
 
 Ресурсы:
 <ul>
