@@ -1,6 +1,6 @@
 # Firewalld
 
-firewalld это надстройка над iptables (точнее он как и iptables использует для работы iptables tool и управляет тем же сетевым фильтром ядра).
+firewalld это надстройка над iptables (он как и iptables использует для работы iptables tool и управляет тем же сетевым фильтром ядра).
 
 Ресурсы:
 <ul>
