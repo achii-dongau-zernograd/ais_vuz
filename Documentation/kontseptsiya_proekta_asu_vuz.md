@@ -42,6 +42,7 @@
       | Код программы подготовки | idProgrammaPodgotovki |
       | Код факультета | idFacultet |
       | Код формы обучения | idFormaObucheniya |
+      | Год начала подготовки | GodNachalaPodgotovki |
 
 
 Таблица "Рабочие программы"
