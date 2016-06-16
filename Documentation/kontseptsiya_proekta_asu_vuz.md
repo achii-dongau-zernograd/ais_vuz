@@ -56,6 +56,7 @@
       | Код дисциплины | idDiscipline |
       | Наименование дисциплины | nameDiscipline |
       | Код кафедры | idKafedra |
+      | Код УМКД | idUMKD |
       
       
 
