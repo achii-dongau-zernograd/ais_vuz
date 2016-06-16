@@ -23,5 +23,6 @@ Cписок сервисов, порты для которых открыты (�
 
 Ресурсы:
 <ul>
-<li>http://kyrych.ru/linux/firewall/25-nastrojka-firewalld Блог системного администратора Настройка Firewalld</li>
+<li>http://kyrych.ru/linux/firewall/25-nastrojka-firewalld Блог системного администратора. Настройка Firewalld</li>
+<li>http://kyrych.ru/linux/32-linuxfirewall/56-shpargalka-po-parametram-fierwalld-cmd Блог системного администратора. Шпаргалка по параметрам fierwalld-cmd или опять настройка firewalld</li>
 </ul>
