@@ -4,4 +4,4 @@
 2. Локальный веб-сервер: openserver (http://open-server.ru) или XAMPP
 3. Git
 4. Composer
-5. StarUML (http://staruml.io/download) - бесплатная программа для построения UML-диаграмм - <font color=red>Изучить. Проработать вопрос о внедрении в учебный процесс. Выполнить поиск аналогов.</font>
+5. StarUML (http://staruml.sourceforge.net/v1/download.php) - бесплатная программа для построения UML-диаграмм - <font color=red>Изучить. Проработать вопрос о внедрении в учебный процесс. Выполнить поиск более новых бесплатных аналогов.</font>
