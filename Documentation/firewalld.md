@@ -4,7 +4,7 @@
 <p>firewalld хранит свои настройки в XML файлах, размещенных в папках /usr/lib/firewalld/ и /etc/firewalld/</p>
 
 
-Открыть порт (22 tcp по умолчанию открыт) и перезагрузить firewallld
+Открыть порт 5280 tcp (22 tcp по умолчанию открыт) и перезагрузить правила межсетевого экрана с сохранением информации о состоянии:
 
 ####firewall-cmd --zone=public --add-port=5280/tcp --permanent
 ####firewall-cmd --reload
