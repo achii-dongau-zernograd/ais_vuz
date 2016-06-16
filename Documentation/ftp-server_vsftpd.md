@@ -5,7 +5,8 @@ yum -y install vsftpd
 
 Конфигурационный файл /etc/vsftpd/vsftpd.conf
 
-Запуск сервера в режиме службы
+Запуск сервера 
+в режиме службы
 listen=YES
 
 Работа в фоновом режиме
@@ -91,11 +92,11 @@ mkdir /etc/vsftpd/users
 В каталоге можно будет создать отдельно файлы с именами пользователей и передать им персональные параметры. Для примера создадим файл с именем пользователя ftp-user и укажем его домашний каталог:
 
 touch /etc/vsftpd/users/ftp-user
-echo 'local_root=/var/asuvuz_data/ftp/share' >> /etc/vsftpd/users/ftp-user
+echo 'local_root=/var/aisvuz_data/ftp/share' >> /etc/vsftpd/users/ftp-user
 
 Не забываем создать этот каталог и назначить ему владельца:
-mkdir /var/asuvuz_data/ftp/share && chmod 0777 /var/asuvuz_data/ftp/share
-chown ftp-user. /var/asuvuz_data/ftp/share
+mkdir /var/aisvuz_data/ftp/share && chmod 0777 /var/aisvuz_data/ftp/share
+chown ftp-user. /var/aisvuz_data/ftp/share
 
 
 
