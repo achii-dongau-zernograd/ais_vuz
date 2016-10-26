@@ -21,7 +21,14 @@ service mysqld stop && service nginx stop && service httpd stop && yum erase php
 
 Источник: http://drach.pro/blog/linux/item/57-php-5-6-for-centos-6-5-via-yum
 
+_____________________________________________________________
+**Установка php7**
+cd /tmp
+curl 'https://setup.ius.io/' -o setup-ius.sh
 
+bash setup-ius.sh
+
+yum install mod_php70u php70u-cli php70u-mysqlnd
 
 
 
