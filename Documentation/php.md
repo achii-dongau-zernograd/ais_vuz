@@ -30,5 +30,7 @@ bash setup-ius.sh
 
 yum install mod_php70u php70u-cli php70u-mysqlnd
 
+apachectl restart
+
 
 
